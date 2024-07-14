@@ -7,19 +7,23 @@ This project demonstrates how to use AI to visualize how clothes fit on a person
 ai_clothes_fit/
 │
 ├── app/
-│ ├── static/
-│ │ ├── css/
-│ │ │ └── styles.css
-│ │ └── uploads/
-│ ├── templates/
-│ │ └── index.html
-│ ├── init.py
-│ └── routes.py
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── styles.css
+│   │   └── uploads/
+│   ├── templates/
+│   │   └── index.html
+│   ├── init.py
+│   └── routes.py
 ├── model/
-│ └── pose_estimation.py
+│   └── pose_estimation.py
 ├── images/
-│ ├── sample_person.jpg # Sample image of a person
-│ └── sample_clothes.png # Sample image of clothes (transparent background)
+│   ├── sample_person.jpg          # Sample image of a person
+│   └── sample_clothes.png         # Sample image of clothes (transparent background)
+├── run.py                 # Entry point to run the Flask application
+├── requirements.txt        # Required libraries
+└── README.md               # Project documentation
+ clothes (transparent background)
 ├── run.py # Entry point to run the Flask application
 ├── requirements.txt # Required libraries
 └── README.md # Project documentation
