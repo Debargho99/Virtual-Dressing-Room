@@ -4,6 +4,7 @@ This project demonstrates how to use AI to visualize how clothes fit on a person
 
 ## Project Structure
 
+```plaintext
 ai_clothes_fit/
 │
 ├── app/
@@ -22,6 +23,8 @@ ai_clothes_fit/
 │   └── sample_clothes.png         # Sample image of clothes (transparent background)
 ├── run.py                 # Entry point to run the Flask application
 ├── requirements.txt        # Required libraries
+└── README.md               # Project documentation
+
 └── README.md               # Project documentation
  clothes (transparent background)
 ├── run.py # Entry point to run the Flask application
