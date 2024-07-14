@@ -1,7 +1,5 @@
 # Virtual-Dressing-Room
 
-# AI Clothes Fit Project
-
 This project demonstrates how to use AI to visualize how clothes fit on a person using Python and deep learning. The project uses DensePose from Detectron2 for detailed body surface estimation and maps the clothes onto the person using UV coordinates, providing a more accurate overlay.
 
 ## Project Structure
